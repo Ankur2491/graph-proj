@@ -118,8 +118,8 @@ export class AppComponent implements OnInit {
       this.nodes = [];
       this.edges = [];
       this.formStructure(JSON.parse(this.code), "root");
-      console.log(this.nodes);
-      console.log(this.edges);
+      // console.log(this.nodes);
+      // console.log(this.edges);
     }
     catch (e) {
       console.error(e);
